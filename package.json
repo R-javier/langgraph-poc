@@ -1,0 +1,22 @@
+{
+  "name": "langgraph-poc",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.26",
+    "@langchain/groq": "^1.1.1",
+    "@langchain/langgraph": "^1.1.5",
+    "dotenv": "^17.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
